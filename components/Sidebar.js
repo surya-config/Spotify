@@ -6,7 +6,7 @@ import {
   RssIcon,
   SearchIcon,
 } from "@heroicons/react/outline";
-import { signOut, useSession } from "next-auth/react";
+import { useSession } from "next-auth/react";
 import { useEffect, useState } from "react";
 import { useRecoilState } from "recoil";
 import { playlistIdState } from "../atoms/playlistAtom";
